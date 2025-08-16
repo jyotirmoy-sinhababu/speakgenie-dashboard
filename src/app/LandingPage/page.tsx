@@ -48,10 +48,10 @@ const LandingPage = () => {
         <div className='ml-64 p-8'>
           {/* Header */}
           <div className='mb-8'>
-            <h1 className='text-2xl font-bold text-gray-900 mb-2'>
+            <h1 className='text-3xl font-serif font-semibold text-blue-500 mb-2'>
               Greenwood Elementary School
             </h1>
-            <p className='text-gray-600'>
+            <p className='text-gray-600 font-sans'>
               Welcome back, School Admin! Here's your school's overview.
             </p>
             <div className='text-sm text-gray-500 mt-2'>

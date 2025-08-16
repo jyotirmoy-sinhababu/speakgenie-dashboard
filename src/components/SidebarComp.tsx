@@ -26,10 +26,10 @@ export default function SidebarComp() {
           <div className='w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center'>
             <Star className='w-5 h-5 text-white' />
           </div>
-          <span className='text-xl font-bold text-gray-900'>SpeakGenie</span>
+          <span className='text-xl font-bold text-blue-600'>SpeakGenie</span>
         </div>
 
-        <div className='text-sm text-gray-500 mb-2'>Admin Panel</div>
+        <div className='text-sm text-gray-500 mb-2 font-serif'>Admin Panel</div>
 
         {/* Navigation */}
         <nav className='space-y-2'>
@@ -39,7 +39,7 @@ export default function SidebarComp() {
             return (
               <Button
                 key={href}
-                variant={isActive ? 'default' : 'ghost'} // Highlight active
+                variant={isActive ? 'default' : 'ghost'}
                 className='w-full justify-start gap-3 cursor-pointer'
                 onClick={() => router.push(href)}
               >
