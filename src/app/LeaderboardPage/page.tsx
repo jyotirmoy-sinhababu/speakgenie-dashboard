@@ -13,7 +13,6 @@ import {
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import {
   Select,
@@ -22,7 +21,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import SidebarComp from '@/components/SidebarComp';
 
 const students = [
   {
@@ -71,7 +69,7 @@ const students = [
   },
 ];
 
-const page = () => {
+const Page = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const PodiumCard = ({
@@ -316,4 +314,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
