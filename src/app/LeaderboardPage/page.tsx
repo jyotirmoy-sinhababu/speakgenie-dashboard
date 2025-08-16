@@ -168,7 +168,7 @@ const Page = () => {
                   <Trophy className='w-6 h-6 text-blue-500' />
                 </div>
                 <p className='text-blue-600 font-medium'>
-                  This month's top 3 achievers
+                  {"This month's top 3 achievers"}
                 </p>
               </div>
 

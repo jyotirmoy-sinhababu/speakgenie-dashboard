@@ -52,7 +52,7 @@ const LandingPage = () => {
               Greenwood Elementary School
             </h1>
             <p className='text-gray-600 font-sans'>
-              Welcome back, School Admin! Here's your school's overview.
+              {"Welcome back, School Admin! Here's your school's overview."}
             </p>
             <div className='text-sm text-gray-500 mt-2'>
               CBSE Board • Last updated: 12/08/2025, 15:46:57
