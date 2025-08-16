@@ -80,7 +80,7 @@ export const topStudents = [
   {
     rank: 7,
     name: 'Sophia Kim',
-    class: 'Class 2',
+    class: 'Class 12',
     points: 138,
     accuracy: 89,
     streak: 7,
@@ -90,7 +90,7 @@ export const topStudents = [
   {
     rank: 8,
     name: 'James Wilson',
-    class: 'Class 6',
+    class: 'Class 11',
     points: 132,
     accuracy: 88,
     streak: 3,
@@ -100,7 +100,7 @@ export const topStudents = [
   {
     rank: 9,
     name: 'Olivia Davis',
-    class: 'Class 5',
+    class: 'Class 2',
     points: 128,
     accuracy: 87,
     streak: 9,

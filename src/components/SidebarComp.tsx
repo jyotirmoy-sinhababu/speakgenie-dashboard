@@ -14,8 +14,8 @@ export default function SidebarComp() {
     { href: '/LandingPage', label: 'Dashboard', icon: BarChart3 },
     { href: '/LeaderboardPage', label: 'Leaderboard', icon: Trophy },
     { href: '/students', label: 'Students', icon: Users },
-    { href: '/analytics', label: 'Analytics', icon: BarChart3 },
-    { href: '/settings', label: 'Settings', icon: Settings },
+    { href: '/Analytics', label: 'Analytics', icon: BarChart3 },
+    { href: '/Setting', label: 'Settings', icon: Settings },
   ];
 
   return (
@@ -40,7 +40,7 @@ export default function SidebarComp() {
               <Button
                 key={href}
                 variant={isActive ? 'default' : 'ghost'} // Highlight active
-                className='w-full justify-start gap-3'
+                className='w-full justify-start gap-3 cursor-pointer'
                 onClick={() => router.push(href)}
               >
                 <Icon className='w-4 h-4' />

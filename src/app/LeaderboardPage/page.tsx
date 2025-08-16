@@ -6,13 +6,8 @@ import {
   Award,
   Medal,
   Search,
-  ChevronDown,
   Filter,
   TrendingUp,
-  HomeIcon,
-  Users,
-  BarChart3,
-  Settings,
   Eye,
 } from 'lucide-react';
 import { Input } from '@/components/ui/input';
